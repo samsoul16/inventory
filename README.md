@@ -43,6 +43,9 @@ All the source code lies in `src/cljs/inventory/` directory
         └── views.cljs - The Main Page of the app which holds views based on route
 ```
 
+#### Note :
+
+All the css lies in `resources/public/css/screen.css` file
 
 ## Development Guide
 
