@@ -2,7 +2,7 @@
 
 A simple application desgined for inventory editing project
 
-## Steps to Run application:
+### Steps to Run application:
 
 ```
 1. Clone the repo
@@ -28,7 +28,7 @@ Frameworks / Tools used for development:
 All the source code lies in `src/cljs/inventory/` directory
 
 #### Code Structure details
-````
+```
 └── cljs
     └── inventory
         ├── config.cljs
