@@ -47,9 +47,14 @@
      :source-paths ["src/cljs"]
      :compiler     {:main            inventory.core
                     :output-to       "resources/public/js/compiled/app.js"
-                    :optimizations   :advanced
+                    :optimizations   :simple
                     :closure-defines {goog.DEBUG false}
-                    :pretty-print    false}}
+                    :pretty-print    false
+                    :language-in     :ecmascript6
+                    :language-out    :ecmascript6
+                    :foreign-libs    [{:file "resources/public/products.js"
+                                       :provides ["products"]
+                                       :module-type :es6}]}}
 
 
     ]}
